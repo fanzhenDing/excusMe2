@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">excusMe</string>
+    <string name="welcome_msg">Welcome to ExcusMe</string>
+    <string name="Input_msg">Enter number here</string>
+    <string name="buttom_send">Next</string>
+    <string name="mom_msg">Mom</string>
+    <string name="roommate_msg">Roommate</string>
+    <string name="dad_msg">Dad</string>
+    <string name="choose_option">Please choose sender</string>
+    <string name="default_msg">Default Sender</string>
+    <string name="flood">Your apartment\'s flooded!!</string>
+    <string name="missing">Your brother\'s gone missing!!</string>
+    <string name="fire">There\'s a fire in your house!!</string>
+    <string name="excuse">Choose your excuse ;)</string>
+    <string name="delay">We will text you in..</string>
+    <string name="mins">Minute(s)</string>
 </resources>
