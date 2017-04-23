@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fanzhending.excusme.ChoosePersonActivity">
+
+
+
+    <RadioGroup
+        android:id="@+id/RG"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="186dp">
+
+        <RadioButton
+            android:id="@+id/default_msg_sender"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:hint="@string/default_msg" />
+
+        <RadioButton
+            android:id="@+id/mom"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:hint="@string/mom_msg" />
+
+        <RadioButton
+            android:id="@+id/dad"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:hint="@string/dad_msg" />
+
+        <RadioButton
+            android:id="@+id/roommate"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:hint="@string/roommate_msg" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="94dp"
+        android:hint="@string/buttom_send"
+        android:onClick="sendMessage"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RG" />
+</android.support.constraint.ConstraintLayout>
