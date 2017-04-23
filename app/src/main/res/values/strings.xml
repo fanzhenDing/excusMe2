@@ -12,6 +12,10 @@
     <string name="missing">Your brother\'s gone missing!!</string>
     <string name="fire">There\'s a fire in your house!!</string>
     <string name="excuse">Choose your excuse ;)</string>
-    <string name="delay">We will text you in..</string>
+    <string name="delay">We will call you in..</string>
     <string name="mins">Minute(s)</string>
+    <string name="confirm_msg">The call will be placed in </string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="variable">%1$d</string>
 </resources>

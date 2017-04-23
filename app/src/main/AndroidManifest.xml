@@ -34,13 +34,23 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ChoosePersonActivity" />
         </activity>
-        <activity android:name=".ScheduleActivity"
+        <activity
+            android:name=".ScheduleActivity"
             android:parentActivityName=".ChooseMessageActivity">
-        <!-- The meta-data tag is required if you support API level 15 and lower -->
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".ChooseMessageActivity" />
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ChooseMessageActivity" />
         </activity>
+        <activity android:name=".ConfirmActivity"
+            android:parentActivityName=".ScheduleActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ScheduleActivity"/>
+        </activity>
+
     </application>
 
 </manifest>

@@ -18,7 +18,7 @@ public class ScheduleActivity extends AppCompatActivity {
         delay2=(String)findViewById(R.id.delay).toString();
     }
     public void sendMessage(View view) {
-        Intent intent = new Intent(this, ChooseMessageActivity.class);
+        Intent intent = new Intent(this, ConfirmActivity.class);
         Bundle bundle = new Bundle();
 
 //Add your data to bundle
