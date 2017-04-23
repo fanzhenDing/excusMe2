@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 
 public class ScheduleActivity extends AppCompatActivity {
     public static String person2,number2,excuse2,delay2;
@@ -15,11 +16,13 @@ public class ScheduleActivity extends AppCompatActivity {
         person2=bundle.getString("person");
         number2=bundle.getString("number");
         excuse2=bundle.getString("excuse");
-        delay2=(String)findViewById(R.id.delay).toString();
+
     }
     public void sendMessage(View view) {
         Intent intent = new Intent(this, ConfirmActivity.class);
         Bundle bundle = new Bundle();
+        EditText editText = (EditText) findViewById(R.id.delay);
+        delay2 = editText.getText().toString();
 
 //Add your data to bundle
         bundle.putString("number", number2);

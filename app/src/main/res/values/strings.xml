@@ -15,7 +15,6 @@
     <string name="delay">We will call you in..</string>
     <string name="mins">Minute(s)</string>
     <string name="confirm_msg">The call will be placed in </string>
-    <string name="confirm">Confirm</string>
-    <string name="cancel">Cancel</string>
-    <string name="variable">%1$d</string>
+    <string name="ok">Ok</string>
+    <string name="variable">%1$s</string>
 </resources>
