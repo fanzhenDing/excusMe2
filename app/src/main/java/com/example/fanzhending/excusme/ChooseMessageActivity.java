@@ -20,8 +20,8 @@ public class ChooseMessageActivity extends AppCompatActivity {
         Bundle bundle = intent.getExtras();
 
 //Extract the data…
-        String number = bundle.getString("number");
-        String person=bundle.getString("person");
+        number = bundle.getString("number");
+        person=bundle.getString("person");
         RadioGroup rg = (RadioGroup) findViewById(R.id.RG);
 
         rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
@@ -29,13 +29,13 @@ public class ChooseMessageActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 switch(checkedId){
                     case R.id.flood:
-                        excuse="flood";// do operations specific to this selection
+                        excuse="Your apartment's flooded";// do operations specific to this selection
                         break;
                     case R.id.fire:
-                        excuse="fire";// do operations specific to this selection
+                        excuse="Your house is on fire";// do operations specific to this selection
                         break;
                     case R.id.missing:
-                        excuse="missing";// do operations specific to this selection
+                        excuse="Happy Birthday";// do operations specific to this selection
                         break;
                 }
             }
